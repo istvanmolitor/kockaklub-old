@@ -10,7 +10,7 @@ const jsPackage = (name) => fileURLToPath(new URL(`./resources/js/packages/${nam
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: ['resources/css/app.css', 'resources/js/app.js', 'resources/js/admin.js'],
             refresh: true,
             fonts: [
                 bunny('Instrument Sans', {

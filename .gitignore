@@ -16,10 +16,13 @@
 /node_modules
 /packages/*
 !/packages/.gitkeep
+/resources/js/packages/*
+!/resources/js/packages/.gitkeep
 /public/build
 /public/fonts-manifest.dev.json
 /public/hot
 /public/storage
+/scripts
 /storage/*.key
 /storage/pail
 /vendor

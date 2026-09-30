@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1976cfbb91132d40668775c1c5cb36e4",
+    "content-hash": "26268fc5f947a1974c99364d2223c054",
     "packages": [
         {
             "name": "blade-ui-kit/blade-icons",
@@ -1141,7 +1141,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/address",
-                "reference": "c73934e6e5fe264f2486688d1d772b956404807e"
+                "reference": "2e946108f820bddc44baf46e59f3dc17718d20cb"
             },
             "require": {
                 "istvanmolitor/user": "*@dev"
@@ -1168,7 +1168,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Address",
+            "description": "Country, city, and address management with Hungarian seed data and a REST API for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1179,7 +1179,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/admin",
-                "reference": "c3376c165858f6e9a2dc897438ebee43b2865375"
+                "reference": "ad31f0fb5aab62f698d584030e6d0b1867379770"
             },
             "type": "library",
             "extra": {
@@ -1203,7 +1203,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Admin UI for Molitor packages.",
+            "description": "PHP backend building blocks (routes, DataTable/search helpers, config, dashboard shell view) for the Molitor admin panel; the Vue admin SPA UI itself lives in a separate frontend package.",
             "transport-options": {
                 "relative": true
             }
@@ -1214,7 +1214,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/blade-ui",
-                "reference": "8cba28c49fc45f250cceaa804407e3bc22fa11e3"
+                "reference": "21745aaf8ceb6a6ea4d6ed2072493bdae053e3dd"
             },
             "require": {
                 "mallardduck/blade-lucide-icons": "^2.0.1",
@@ -1242,7 +1242,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Blade UI components package",
+            "description": "Reusable Blade UI components (forms, layout shell, avatar, badge, rating) with a component showcase page, independent of any other Molitor package.",
             "transport-options": {
                 "relative": true
             }
@@ -1253,9 +1253,10 @@
             "dist": {
                 "type": "path",
                 "url": "packages/contact",
-                "reference": "2d34cfc2c815c50bbc570cabe8dc3898a4e50582"
+                "reference": "c24da74ffaa6c5e34f1ff6a6d9395c7e25ecc1d1"
             },
             "require": {
+                "istvanmolitor/blade-ui": "*@dev",
                 "laravel/framework": "^11.0|^12.0|^13.0",
                 "php": "^8.2"
             },
@@ -1281,7 +1282,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Contact package",
+            "description": "Simple public contact form (route, controller, and Blade view) for Laravel applications.",
             "transport-options": {
                 "relative": true
             }
@@ -1292,7 +1293,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/currency",
-                "reference": "30719645806e4c18a4dfa61e3af75b44fb986498"
+                "reference": "6a834c8bef73988d26295ef3c40f29e68f4ef21f"
             },
             "require": {
                 "istvanmolitor/language": "*@dev"
@@ -1322,7 +1323,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Currency",
+            "description": "Multi-currency support with exchange rates, price conversion, and scheduled rate updates for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1333,7 +1334,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/customer",
-                "reference": "64e66c2d8f32656dac254a0746208e6e9b4856fb"
+                "reference": "d7ddd4628bf8bb1767365f59c0276cc878097ba4"
             },
             "require": {
                 "istvanmolitor/currency": "*@dev",
@@ -1361,7 +1362,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Customer",
+            "description": "Customer and customer-group management built on the Molitor language and currency packages.",
             "transport-options": {
                 "relative": true
             }
@@ -1372,7 +1373,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/language",
-                "reference": "fd7fea7e158f2283b4d9e605ca8d7254707321fd"
+                "reference": "b279d8742151f1c472fb2663068cdf5a3b922811"
             },
             "require": {
                 "istvanmolitor/admin": "*@dev",
@@ -1402,7 +1403,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Language",
+            "description": "Multi-language and translation management, including locale switching and translatable Eloquent models, for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1413,7 +1414,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/media",
-                "reference": "a9d096cb5ad6d73b97f11c10a1c5914d372aa2c5"
+                "reference": "a8a7490c9409eb0b609a796ca622e477ab5dba95"
             },
             "require": {
                 "istvanmolitor/admin": "dev-main"
@@ -1440,7 +1441,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Media",
+            "description": "Media file and folder management with an admin API for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1451,7 +1452,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/menu",
-                "reference": "7c78755dc9819c609185b73dc6b9433812731031"
+                "reference": "bceeae7cacc02e375ac3035832b3a7885878906f"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0|^11.0"
@@ -1487,7 +1488,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Menu",
+            "description": "Standalone builder for hierarchical admin/frontend navigation menus, with no dependency on other Molitor packages.",
             "transport-options": {
                 "relative": true
             }
@@ -1498,7 +1499,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/order",
-                "reference": "7c04314b2f03298843d2fce28280375df8b7b113"
+                "reference": "a42e35ef394d06364be2a0caca40295a31f1010b"
             },
             "require": {
                 "istvanmolitor/product": "*@dev",
@@ -1526,7 +1527,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Order",
+            "description": "Order, payment, shipping, and status-history management built on the Molitor product and user packages.",
             "transport-options": {
                 "relative": true
             }
@@ -1537,9 +1538,10 @@
             "dist": {
                 "type": "path",
                 "url": "packages/product",
-                "reference": "22cf5a9a9b3c873f595854892e7841ccec2b649f"
+                "reference": "1355e0f8ee7210d9a6a3f22d2c8d82016618f013"
             },
             "require": {
+                "istvanmolitor/blade-ui": "*@dev",
                 "istvanmolitor/currency": "*@dev"
             },
             "type": "library",
@@ -1564,7 +1566,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Product",
+            "description": "Product catalog management with categories, units, custom fields, images, and barcodes for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1575,7 +1577,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/setting",
-                "reference": "df1897c415c5858b465dd9c0d8c5ad5ef663355c"
+                "reference": "e2d3c29768d911172ea71b77c35b251d1c7f0e02"
             },
             "require": {
                 "istvanmolitor/user": "*@dev"
@@ -1605,7 +1607,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Setting",
+            "description": "Key-value application settings storage with a form builder for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -1616,10 +1618,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/shop",
-                "reference": "cce8526d741abbeb4d3a613e99ff7d3c1b5cc09c"
+                "reference": "75e73014af9ab2aee7a8ec4d2177f786a4721a67"
             },
             "require": {
                 "istvanmolitor/address": "*@dev",
+                "istvanmolitor/blade-ui": "*@dev",
                 "istvanmolitor/currency": "*@dev",
                 "istvanmolitor/customer": "*@dev",
                 "istvanmolitor/language": "*@dev",
@@ -1651,7 +1654,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Shop modul",
+            "description": "Public storefront (product listing, cart, checkout, customer auth) built with Livewire on top of the Molitor product, order, customer, address, currency, and stock packages.",
             "transport-options": {
                 "relative": true
             }
@@ -1662,7 +1665,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/stock",
-                "reference": "5d8e34fe6b6320ba0b5b1580e3221bbda472e344"
+                "reference": "e904e5f3c83a4d7b8bd4fcb5e6cad0817d34ab6f"
             },
             "require": {
                 "istvanmolitor/product": "*@dev"
@@ -1689,7 +1692,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "Stock",
+            "description": "Warehouse, stock movement, and inventory management built on the Molitor product package.",
             "transport-options": {
                 "relative": true
             }
@@ -1700,10 +1703,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/user",
-                "reference": "200181a75630dd70a6a5b2b5ecd9df023e907893"
+                "reference": "6bd4efe6025347f61c5bd26a81b948e704e02f3e"
             },
             "require": {
                 "istvanmolitor/admin": "dev-main",
+                "istvanmolitor/blade-ui": "*@dev",
                 "istvanmolitor/menu": "dev-main",
                 "laravel/sanctum": "^4.0"
             },
@@ -1729,7 +1733,7 @@
                     "email": "istvanmolitor@gmail.com"
                 }
             ],
-            "description": "User",
+            "description": "User, user-group, and permission (ACL) management with Sanctum-based API authentication for the Molitor package suite.",
             "transport-options": {
                 "relative": true
             }
@@ -7939,6 +7943,69 @@
                 "source": "https://github.com/laravel/roster"
             },
             "time": "2026-07-18T17:53:15+00:00"
+        },
+        {
+            "name": "laravel/sail",
+            "version": "v1.68.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sail.git",
+                "reference": "2bc304083d515065b03944e425e62cb3c526c33e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/2bc304083d515065b03944e425e62cb3c526c33e",
+                "reference": "2bc304083d515065b03944e425e62cb3c526c33e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^9.52.16|^10.0|^11.0|^12.0|^13.0",
+                "illuminate/contracts": "^9.52.16|^10.0|^11.0|^12.0|^13.0",
+                "illuminate/support": "^9.52.16|^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.0",
+                "symfony/console": "^6.0|^7.0|^8.0",
+                "symfony/yaml": "^6.0|^7.0|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpstan/phpstan": "^2.0"
+            },
+            "bin": [
+                "bin/sail"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Sail\\SailServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Sail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Docker files for running a basic Laravel application.",
+            "keywords": [
+                "docker",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/sail/issues",
+                "source": "https://github.com/laravel/sail"
+            },
+            "time": "2026-09-18T14:34:46+00:00"
         },
         {
             "name": "mockery/mockery",
